@@ -101,7 +101,7 @@ def get_truck_team():
 
 def is_game_over(player, trucks):
     for truck in trucks:
-        if truck[0].distance(player) < 15 or truck[1].distance(player) < 15:
+        if truck[0].distance(player) < 20 or truck[1].distance(player) < 20:
             return True
     return False
 
